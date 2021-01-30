@@ -35,5 +35,7 @@ public class FibonacciSequence {
 		System.out.println(bruteForce(7));
 		System.out.println(bruteForce(1));
 		System.out.println(Memoization(1));
+		System.out.println(bruteForce(2));
+		System.out.println(Memoization(2));
 	}
 }
