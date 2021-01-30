@@ -12,6 +12,9 @@ public class FibonacciSequence {
 	//Space - O(n)
 	public static int Memoization(int n) {
 		int[] memo = new int[n];
+		if(n <= 2) {
+			return 1;
+		}
 		Arrays.fill(memo,-1);
 		memo[0] = 1;
 		memo[1] = 1;
@@ -30,5 +33,7 @@ public class FibonacciSequence {
 	public static void main(String[] args) {
 		System.out.println(Memoization(7));
 		System.out.println(bruteForce(7));
+		System.out.println(bruteForce(1));
+		System.out.println(Memoization(1));
 	}
 }
