@@ -45,6 +45,7 @@ public class DungeonGame {
 		dungeon[1] = new int[] {-5,-10,1};
 		dungeon[2] = new int[] {10,30,-5};
 		System.out.println(calculateMinimumHP(dungeon));//ans = 7
+		System.out.println(calculateMinimumHP(dungeon));//ans = 7
 	}
 
 }
