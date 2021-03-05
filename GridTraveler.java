@@ -39,5 +39,6 @@ public class GridTraveler {
 	public static void main(String[] args) {
 		System.out.println(gridTraveler(2,3));
 		System.out.println(gridTravelerOptimal(2,3));
+		System.out.println(gridTravelerOptimal(2,3));
 	}
 }
