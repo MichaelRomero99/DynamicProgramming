@@ -40,5 +40,6 @@ public class FibonacciSequence {
 		System.out.println(Memoization(3));
 		System.out.println(Memoization(9));
 		System.out.println(Memoization(9));
+		System.out.println(Memoization(9));
 	}
 }
